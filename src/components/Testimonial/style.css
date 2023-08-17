@@ -1,0 +1,45 @@
+.testi {
+    background-color: var(--jet);
+    height: 600px;
+    overflow: hidden;
+}
+
+.testi-content {
+    padding: var(--section-padding) 40px;
+}
+
+.testi .section-title {
+    color: var(--white);
+    margin-block: 10px 40px;
+}
+
+.testi-card {
+    color: var(--white);
+}
+
+.testi-text,
+.testi-name {
+    font-size: var(--fs-8);
+}
+
+.testi-text,
+.testi-title {
+    font-family: var(--ff-inter);
+}
+
+.testi-text {
+    padding-block-end: 30px;
+    border-block-end: 1px solid var(--white_10);
+    margin-block: 20px 30px;
+    margin-block-start: 0;
+}
+
+.testi-title {
+    color: var(--white_50);
+    font-size: var(--fs-10);
+}
+
+.testi-banner {
+    background-color: var(--light-gray);
+    max-height: 100%;
+}
